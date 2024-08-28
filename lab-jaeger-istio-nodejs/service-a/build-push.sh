@@ -7,5 +7,5 @@
 #docker push csantanapr/service-a-nodejs-istio
 
 # Versão podman
-podman build -t danielrpgj/service-a-nodejs .
-podman tag my-nginx-image registry.example.com/my-nginx-image:v1
+sudo podman build -t service-a-nodejs .
+sudo podman tag my-nginx-image registry.example.com/my-nginx-image:v1
